@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3e5d8;
+}
+
+.main_receipe_container {
+  width: 800px;
+  /* background-color: white; */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main_receipe_container img {
+  width: 800px;
+  border-radius: 16px;
+}
+.main_receipe_wrapper {
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+}
+section.intro_section h1 {
+  font-family: "Young Serif", serif;
+  color: #2e2d2b;
+  padding: 25px 0px;
+}
+section.intro_section p {
+  font-family: "Outfit", sans-serif;
+  color: #898481;
+  font-size: 16px;
+}
+section.preparation_section {
+  background-color: #fff7fc;
+  padding: 30px 30px;
+  margin: 30px 0px;
+  border-radius: 16px;
+}
+section.preparation_section h3 {
+  font-family: "Outfit", sans-serif;
+  color: #693249;
+  font-size: 27px;
+}
+section.preparation_section ul li {
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 16px;
+}
+section.preparation_section ul {
+  padding-left: 45px;
+  padding-top: 20px;
+  font-size: 22px;
+}
+section.preparation_section ul li span {
+  font-weight: 700;
+  color: #655c60;
+}
+section.ingredients_section h3 {
+  color: #844732;
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  margin: 0px 0px 30px 0px;
+}
+
+section.ingredients_section ul li {
+  font-family: "Outfit", sans-serif;
+  padding: 8px 0px;
+  color: #908f8d;
+  font-size: 18px;
+}
+section.ingredients_section ul {
+  padding-left: 40px;
+}
+section.ingredients_section {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 50px;
+}
+section.instructions_section h3 {
+  color: #844732;
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  margin: 0px 0px 30px 0px;
+}
+section.instructions_section {
+  margin: 40px 0px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 50px;
+}
+section.instructions_section ol li {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  padding: 6px 15px;
+  color: #908f8d;
+}
+section.instructions_section ol {
+  margin-left: 30px;
+  color: #844732;
+}
+section.instructions_section ol li span {
+  font-weight: 700;
+  color: #844732;
+}
+section.nutrition_section h3 {
+  color: #844732;
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  margin: 0px 0px 30px 0px;
+}
+section.nutrition_section p {
+  font-family: "Outfit", sans-serif;
+  color: #898481;
+  font-size: 16px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0px;
+}
+
+td {
+  padding: 12px 30px;
+  border-bottom: 1px solid #ddd;
+  color: #898481;
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+}
+td:nth-child(2) {
+  color: #844f49;
+  font-weight: 700;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    display: block;
+  }
+  .main_receipe_container {
+    width: 100%;
+  }
+  .main_receipe_container img {
+    width: 100%;
+  }
+  section.intro_section h1 {
+    font-size: 20px;
+  }
+  section.intro_section p {
+    font-size: 14px;
+  }
+  section.preparation_section {
+    padding: 20px 20px;
+  }
+  section.preparation_section h3 {
+    font-size: 23px;
+  }
+  section.preparation_section ul {
+    padding-left: 20px;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  section.preparation_section {
+    margin: 20px 0px;
+  }
+  section.ingredients_section ul {
+    padding-left: 25px;
+  }
+  section.ingredients_section h3 {
+    margin: 0px 0px 20px 0px;
+  }
+  section.ingredients_section ul li {
+    font-size: 14px;
+  }
+  section.ingredients_section h3 {
+    font-size: 24px;
+  }
+  section.instructions_section h3 {
+    font-size: 24px;
+  }
+  .main_receipe_wrapper {
+    padding: 20px;
+  }
+  section.instructions_section ol li {
+    font-size: 17px;
+  }
+  section.instructions_section h3 {
+    margin: 0px 0px 20px 0px;
+  }
+  section.instructions_section {
+    margin: 25px 0px;
+  }
+  section.nutrition_section h3 {
+    font-size: 24px;
+    margin: 0px 0px 20px 0px;
+  }
+  td {
+    font-size: 18px;
+  }
+}
